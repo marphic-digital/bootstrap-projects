@@ -1,0 +1,270 @@
+*{
+    font-family: montserrat;
+}
+.section-header{
+    margin-bottom: 40px;
+}
+.section-header h2{
+    color: #08194a;
+    font-size: 45px;
+    font-weight: 700;
+}
+.section-header h2 span{
+    color: #e53f29;
+}
+.navbar-nav a{
+    font-size: 16px;
+    font-weight: 700;
+}
+.navbar-light .navbar-brand{
+    color: #08194a;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-brand span{
+    color: #e53f29;
+}
+.section-padding{
+    padding: 80px 0;
+}
+.w-100{
+    height: 100vh;
+}
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: .3;
+    background: #fff;
+
+}
+/* .carousel{
+    background-image: url(img/hero3.jpg);
+    background-size: cover;
+    background-position: center;
+} */
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 300px;
+    z-index: 2;
+    left: 8%;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    margin-top: 25px;
+    color: #08194a;
+    font-weight: 700;
+    text-align: left;
+}
+.carousel-caption h5 span{
+    color: #e53f29;
+}
+.carousel-caption p{
+    width: 50%;
+    font-size: 18x;
+    line-height: 1.8;
+    color: #08194a;
+    text-align: left;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #08194a;
+    padding: 5px 20px;
+    display: inline-block;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* About */
+
+.about-area{
+    margin-top: 100px;
+}
+.img-area img{
+    width: 100% !important;
+}
+.about-text{
+    padding-left: 30px;
+}
+.about-text h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #08194a;
+}
+.about-text h2 span{
+    color: #e53f29;
+}
+.about-text .btn{
+    background: #08194a;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* Services */
+
+.services-heading{
+    margin-bottom: 50px;
+}
+.services-heading h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.services-heading h2 span{
+    color: #e53f29;
+}
+.single-service{
+    background: #08194a;
+    color: #fff;
+    padding: 30px 20px;
+}
+.single-service i{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.single-service h3{
+    font-weight: 400;
+}
+
+/* Why us */
+
+.choose-img img{
+    width: 100%;
+}
+.single-box{
+    padding: 20px;
+}
+.single.box i{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #e53f29;
+}
+.single-box h2{
+    color: #08194a;
+}
+
+/* testimonial */
+
+.imgBox{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 25px;
+}
+.imgBox img{
+    width: 100%;
+}
+.single-client{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, .2);
+    padding: 30px 15px;
+}
+.single-client h2{
+    color: #08194a;
+}
+.single-client h5{
+    color: #08194a;
+    font-weight: 600;
+    font-size: 15px;
+}
+.single-client h5 span{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/* Contact */
+
+.left-contact{
+    background: #08194a;
+    padding: 60px;
+    color: #fff;
+}
+.left-contact h3{
+    margin-bottom: 20px;
+}
+label{
+    font-size: 28px;
+    margin: 10px 0;
+}
+form .btn{
+    background: #08194a;
+    color: #fff;
+    display: inlin-block;
+    margin-top: 30px;
+}
+
+/* Footer */
+
+footer{
+    background: #08194a;
+    padding: 35px 0;
+    color: #fff;
+}
+.socials i{
+    font-size: 25px;
+    margin: 0 15px;
+}
+
+/* Responsive */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .about-text h2{
+        margin: 20px 0;
+    }
+    .single-service{
+        margin-bottom: 30px;
+    }
+    .single-box{
+        margin-bottom: 30px;
+    }
+    .single-client{
+        margin-bottom: 35px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 100px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        font-size: 10px;
+    }
+    .carousel-caption h5{
+        font-size: 20px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .about-text h2{
+        font-size: 30px;
+        margin: 15px 0;
+    }
+    .section-header h2{
+        font-size: 30px;
+    }
+    .single-service {
+        margin-bottom: 30px;
+    }
+    .single-box{
+        margin-bottom: 30px;
+    }
+    .single-client{
+        margin-bottom: 30px;
+    }
+    .left-contact h3{
+        text-align: center;
+    }
+    .left-contact p{
+        text-align: center;
+    }
+}
