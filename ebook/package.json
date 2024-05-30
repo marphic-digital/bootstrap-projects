@@ -1,0 +1,23 @@
+{
+  "name": "ebook",
+  "version": "1.0.0",
+  "description": "online selling website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --no-source-map scss:css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marphic-digital/ebook.git"
+  },
+  "author": "Marphic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marphic-digital/ebook/issues"
+  },
+  "homepage": "https://github.com/marphic-digital/ebook#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.3"
+  }
+}
