@@ -2,9 +2,36 @@
 // #d6342f
 
 .header{
-    background: url(../images/header-background.png);
+    background: url(../images/bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+.navbar{
+    transition: all .5s ease-in-out;
+}
+.navbar-sticky{
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+nav .btn{
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+nav .btn:hover{
+    background: #fff;
+    color: #f0892a;
+}
+nav .nav-link:hover{
+    color: #f0892a;
+}
+.hero .container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons i{
+    font-size: 48px;
+    padding: 8px;
 }
