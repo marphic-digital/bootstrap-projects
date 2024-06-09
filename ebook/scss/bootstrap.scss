@@ -27,4 +27,6 @@ $spacers: (
   8: $spacer * 12,
 ) !default;
 
+$enable-negative-margins: true;
+
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
