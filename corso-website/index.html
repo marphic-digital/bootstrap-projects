@@ -1,173 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <title>Corso-Website</title>
-</head>
-<body>
-    
-    <!-- NAVBAR -->
-
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-        <div class="container">
-            <a href="index.html" class="navbar-brand">
-                <img src="images/logo.png" alt=""  width="150px">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                     <a class="nav-link" href="#discover">Discover</a>
-                    </li>
-                    <li class="nav-item">
-                     <a class="nav-link" href="#summary">Summary</a>
-                    </li>
-                    <li class="nav-item">
-                     <a class="nav-link" href="#takeaways">Takeaways</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#subscribe">Subscribe</a>
-                    </li>
-                </ul>
-                <span class="nav-item">
-                    <span class="fa-stack">
-                        <a href="#">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-facebook-f fa-stack-1x text-white"></i>
-                        </a>
-                    </span>
-                </span>
-                <span class="nav-item">
-                    <span class="fa-stack">
-                        <a href="#">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-github fa-stack-1x text-white"></i>
-                        </a>
-                    </span>
-                </span>
-            </div>
-        </div>
-    </nav>
-
-    <!-- HEADER -->
-
-    <header class="header py-7 vh-100">
-        <div class="container">
-            <div class="row mb-5 text-center">
-                <div class="col-12">
-                    <h1 class="display-2 mt-3 text-white">
-                        Explore Our Training and Seminar Videos
-                    </h1>
-                    <p class="lead m-auto w-75 mb-4 text-white">
-                        Whether you're a beginner or an experienced professional, our
-                        carefully curated content will empower you to enhance your skills
-                        and expand your knowledge
-                    </p>
-                    <a href="#register" class="btn btn-primary text-uppercase">Register</a>
-                    <a href="#discover" class="btn btn-outline-light text-uppercase">Discover</a>
-                </div>
-                <div class="row my-5">
-                    <div class="col-12">
-                        <div id="slide" class="carousel slide"  data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                              <button type="button" data-bs-target="#slide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                              <button type="button" data-bs-target="#slide" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                              <button type="button" data-bs-target="#slide" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner rounded-5">
-                              <div class="carousel-item active">
-                                <img src="images/header-slide-1.jpg" class="d-block w-100 rounded-5" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="images/header-slide-2.jpg" class="d-block w-100 rounded-5" alt="...">
-                              </div>
-                              <div class="carousel-item">
-                                <img src="images/header-slide-3.jpg" class="d-block w-100 rounded-5" alt="...">
-                              </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#slide" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#slide" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
-                          </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- REGISTER SECTION -->
-
-    <section class="register bg-primary py-7 overflow-hidden">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2>Unlock Your Potential with Engaging Content</h2>
-                    <p>
-                    Our wide range of training and seminar videos are designed to
-                    empower you with valuable knowledge and skills.
-                    </p>
-                    <ul class="list-unstyled vstack gap-3">
-                        <li>
-                            <i class="fas fa-square"></i>
-                            <strong>Gain Expertise:</strong> Our videos provide in-depth
-                            insights and practical tips to enhance your expertise in various
-                            domains.
-                        </li>
-                        <li>
-                            <i class="fas fa-square"></i>
-                            <strong>Stay Updated:</strong> Stay up-to-date with the latest
-                            industry trends and advancements through our informative and
-                            up-to-date videos.
-                          </li>
-                          <li>
-                            <i class="fas fa-square"></i>
-                            <strong>Expand Your Network:</strong> Connect with like-minded
-                            individuals and industry experts, fostering new connections and
-                            opportunities.
-                          </li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 p-4">
-                    <form>
-                        <div class="my-4"><input type="text" class="form-control form-control-lg rounded-0 border-0" placeholder="Enter name"></div>
-                        <div class="my-4"><input type="email" class="form-control form-control-lg rounded-0 border-0" placeholder="Enter email"></div>
-                        <div class="my-4"><input type="text" class="form-control form-control-lg rounded-0 border-0" placeholder="Enter phone number"></div>
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input">
-                            <label for="terms" class="form-check-label">I agree with the terms and conditions</label>
-                        </div>
-                        <div class="d-grid mt-4">
-                            <button class="btn btn-outline-dark">Register Now</button>
-                        </div>
-                        
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        />
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="shortcut icon"
+            href="images/favicon.png"
+            type="image/x-icon"
+        />
+        <title>Corso-Website</title>
+    </head>
+    <body>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
 </html>
